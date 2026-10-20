@@ -1,0 +1,40 @@
+# ---- 系统 ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- 编辑器 ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ---- 编译产物 ----
+*.exe
+*.dll
+*.o
+*.obj
+bin/
+obj/
+
+# ---- 密钥（千万别提交） ----
+*.pem
+*.key
+.env.local
+secrets.json
